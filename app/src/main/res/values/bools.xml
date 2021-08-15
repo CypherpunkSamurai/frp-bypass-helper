@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="night_mode">false</bool>
+    <bool name="light_status_bar">false</bool>
+    
+</resources>

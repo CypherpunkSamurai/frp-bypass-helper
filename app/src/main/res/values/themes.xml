@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.DayNight" parent="@android:style/Theme.Holo.Light.DarkActionBar"/>
+
+    <style name="Base.AppTheme" parent="AppTheme.DayNight">
+    </style>
+
+    <style name="AppTheme" parent="Base.AppTheme">
+    </style>
+    
+</resources>

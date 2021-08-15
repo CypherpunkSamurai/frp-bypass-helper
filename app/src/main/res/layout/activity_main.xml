@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:background="#FFF6F6F6">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="Developer Options"
+			android:padding="30dp"
+			android:id="@+id/btn_devop"
+			android:textColor="#FFFFFFFF"
+			android:background="#FF8EC37C"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="Settings"
+			android:padding="30dp"
+			android:id="@+id/btn_set"
+			android:background="#FF78A97F"
+			android:textColor="#FFFFFFFF"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="@string/readme_title"
+			android:layout_marginTop="20dp"
+			android:padding="10dp"
+			android:textStyle="bold"
+			android:textColor="#FF616161"/>
+
+		<ScrollView
+			android:layout_height="160dp"
+			android:layout_width="match_parent"
+			android:fadeScrollbars="false">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:text="@string/readme"
+				android:ellipsize="end"
+				android:maxLines="16"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_height="wrap_content"
+				android:textColor="#FFA0A0A0"
+				android:textStyle="bold"/>
+
+		</ScrollView>
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="bottom|center_horizontal">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:text="@string/dev"
+				android:layout_marginBottom="5dp"
+				android:textColor="#FF919191"
+				android:typeface="normal"
+				android:textStyle="italic"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+

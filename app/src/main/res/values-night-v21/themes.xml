@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.DayNight" parent="@android:style/Theme.Material">
+        <item name="android:navigationBarColor">?android:colorPrimary</item>
+    </style>
+    
+</resources>

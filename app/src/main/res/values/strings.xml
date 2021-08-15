@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FRP Bypass</string>
+	<string name="readme_title">Steps To Bypass FRP</string>
+	<string name="readme">* Search Youtube --> How to Bypass FRP for [device name] [model]\n* Follow Instructions to open chrome\n* Download this instead of *any* Shortcut app\n* Open this apk from downloads\n* Enable "Unknown Sources"\n* Install This App, then Open\n* Open Developer Options\n* Click on OEM Unlock and hold 2 sec\n* Enable OEM Unlock\n* Go to Settings\n* Factory Reset\n* Done</string>
+	<string name="dev">Dev - Rakesh Chowdhury 🏔️</string>
+</resources>
