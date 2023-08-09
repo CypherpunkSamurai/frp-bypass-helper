@@ -9,6 +9,8 @@ Please don't use for illegal uses. I will not be liable for any misuse of this t
 ## Installation
 You can download a build from the releases.
 
+[click here](https://github.com/CypherpunkSamurai/frp-bypass-helper/releases/download/1.0/app-debug.apk)
+
 **OR**
 
 Compile Yourself:
