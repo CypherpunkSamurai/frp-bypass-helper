@@ -14,7 +14,7 @@ You can download a build from the releases.
 Compile Yourself:
 
 * Clone the repo
-* Run gradlew build debug
+* Run `gradlew assembleDebug`
 
 # Credits
 **CypherpunkSamurai** - Me :P
